@@ -74,8 +74,9 @@ pipeline {
     }
   }
   post {
-        always {
-          // cleanWs() https://github.com/jenkins-x/jx/issues/2516#issuecomment-458986098
+        // https://github.com/jenkins-x/jx/issues/2516#issuecomment-458986098
+        // always {
+          // cleanWs()
         }
   }
 }
